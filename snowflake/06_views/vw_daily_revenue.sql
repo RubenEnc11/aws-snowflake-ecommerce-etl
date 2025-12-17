@@ -1,0 +1,6 @@
+CREATE OR REPLACE VIEW VW_DAILY_REVENUE AS
+SELECT
+  DATE(order_time) AS order_date,
+  SUM(total_usd) AS revenue
+FROM FACT_ORDERS
+GROUP BY 1;
