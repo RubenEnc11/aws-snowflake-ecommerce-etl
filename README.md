@@ -193,7 +193,6 @@ aws-snowflake/
 - Writing **PySpark ETL jobs** with AWS Glue.
 - Integrating **Snowflake with Amazon S3** using secure storage integrations.
 - Applying **dimensional modeling** and validating data quality.
--Documenting projects clearly for portfolio and interview readiness.
 
 ---
 
